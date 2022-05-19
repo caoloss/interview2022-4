@@ -1,9 +1,10 @@
 # interview2022
 Interswitch Technical Interview
 
-
+Below are the Steps to Follow During the Application Initialisation
 
 Changing the Datatype of column username from varchar(1) to varchar(100) 
+
 ALTER TABLE users
 ALTER COLUMN username varchar(100);
 
