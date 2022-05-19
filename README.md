@@ -3,13 +3,13 @@ Interswitch Technical Interview
 
 Below are the Steps to Follow During the Application Initialisation
 
-Changing the Datatype of column username from varchar(1) to varchar(100) 
+1. Changing the Datatype of column username from varchar(1) to varchar(100) 
 
 ALTER TABLE users
 ALTER COLUMN username varchar(100);
 
 
-For the First time, user credentials have to be inserted manually
+2. For the First time, user credentials have to be inserted manually
 
 INSERT INTO emp_dept (emp_dept_name, date_created)
 VALUES ('IT', getdate());
